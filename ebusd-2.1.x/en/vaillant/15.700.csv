@@ -165,7 +165,7 @@ r1,,z1RoomTemp,room temperature zone 1,,,,0F00,,,tempv,,,current room temperatur
 r;w,,z1ValveStatus,valve status zone 1,,,,1200,,,UCH,,,valve status of zone 1
 r;w,,z1RoomZoneMapping,room zone mapping zone 1,,,,1300,,,zmapping,,,configures which room temperature is assigned to zone 1
 r1;w,,z1ActualRoomTempDesired,room temperature desired zone 1,,,,1400,,,tempv,,,current room setpoint considering all basic conditions passed to the control algorithms
-#r;w,,z1Unknown15Temp,(in noise reduction 24 otherwise 99 - max.air level?) temperature zone 1,,,,1500,,,tempv,,,unknown value for zone 1
+r1;w,,z1UnknownSomething,(in noise reduction 24 otherwise 99 - max.air level?) temperature zone 1,,,,1500,,,HEX:4,,,unknown value for zone 1
 r;w,,z1Shortname,Kurzbezeichnung zone 1,,,,1600,,,shortname,,,short name of zone 1
 r;w,,z1Name1,zone 1 label (first part),,,,1700,,,zname,,,name of zone 1
 r;w,,z1Name2,zone 1 label (second part),,,,1800,,,zname,,,name of zone 1
@@ -188,7 +188,7 @@ r1,,z2RoomTemp,room temperature zone 2,,,,0F00,,,tempv,,,current room temperatur
 r;w,,z2ValveStatus,valve status zone 2,,,,1200,,,UCH,,,valve status of zone 2
 r;w,,z2RoomZoneMapping,room zone mapping zone 2,,,,1300,,,zmapping,,,configures which room temperature is assigned to zone 2
 r1;w,,z2ActualRoomTempDesired,room temperature desired zone 2,,,,1400,,,tempv,,,current room setpoint considering all basic conditions passed to the control algorithms
-#r;w,,z2Unknown15Temp,(in noise reduction 24 otherwise 99 - max.air level?) temperature zone 2,,,,1500,,,tempv,,,unknown value for zone 2
+r1;w,,z2UnknownSomething,(in noise reduction 24 otherwise 99 - max.air level?) temperature zone 2,,,,1500,,,HEX:4,,,unknown value for zone 2
 r;w,,z2Shortname,Kurzbezeichnung zone 2,,,,1600,,,shortname,,,short name of zone 2
 r;w,,z2Name1,zone 2 label (first part),,,,1700,,,zname,,,name of zone 2
 r;w,,z2Name2,zone 2 label (second part),,,,1800,,,zname,,,name of zone 2
