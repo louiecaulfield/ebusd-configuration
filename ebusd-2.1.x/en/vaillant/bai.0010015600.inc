@@ -28,10 +28,10 @@ r,,PrimaryCircuitFlowrate,d.29 Primary circuit flow rate,,,,"FB00",,,uin100,,l/m
 r,,TargetFanSpeed,d.33 Target fan speed,,,,"2400",,,UIN,,1/min,Fan speed setpoint,,,
 r,,FanSpeed,d.34 Current fan speed,,,,"8300",,,UIN,,1/min,Current fan speed,,,
 r,,PositionValveSet,d.35 Position TWV,,,,"5400",,,UCH,,,Position of diverter valve; 100 = DHW; 0 = heating; 40 = middle position,,,
-r,,FlowTemp,d.40 Supply temperature,,,,"1800",,,tempsensor,,,CH supply temperature sensor (VF2),,,
-r,,ReturnTemp,d.41 Return temperature,,,,"9800",,,tempmirrorsensor,,,CH return temperature sensor,,,
+r1,,FlowTemp,d.40 Supply temperature,,,,"1800",,,tempsensor,,,CH supply temperature sensor (VF2)
+r1,,ReturnTemp,d.41 Return temperature,,,,"9800",,,tempmirrorsensor,,,CH return temperature sensor
 r,,IonisationVoltageLevel,d.44 Ionisation voltage,,,,"A400",,,SIN,10,,Digital ionisation voltage (80 = no flame; 40 = good flame),,,
-r,,OutdoorstempSensor,d.47 Outdoor temperature,,,,"7600",,,tempsensor,,,Outdoor temperature sensor (uncorrected value) value and status,,,
+r1,,OutdoorstempSensor,d.47 Outdoor temperature,,,,"7600",,,tempsensor,,,Outdoor temperature sensor (uncorrected value) value and status
 r,,RemainingBoilerblocktime,d.67 Remaining burner block time,,,,"3800",,,minutes0,,,Remaining burner anti-cycling time,,,
 #r,,EBusHeatcontrol,d.90 Digitaler Regler,,,,"0004",,,yesno,,,Gibt an ob ein digitaler Regler erkannt wurde,,,
 r,,dcfState,d.91 DCF Status,,,,"6900",,,dcfstate,,,DCF Status,,,
