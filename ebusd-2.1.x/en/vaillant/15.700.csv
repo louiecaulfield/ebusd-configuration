@@ -43,8 +43,8 @@ r;w,,PrEnergySumHwc,total energy consumption hot water,,,,5800,,,energy4,,,Strom
 r;w,,PrFuelSumHwc,total fuel consumption hot water,,,,5900,,,energy4,,,Brennstoffverbrauch hot water gesamt
 r;w,,PrEnergySum,total energy consumption,,,,5C00,,,energy4,,,Dieses Jahr Stromverbrauch gesamt
 r;w,,PrFuelSum,total fuel consumption,,,,5D00,,,energy4,,,Dieses Jahr Brennstoffverbrauch gesamt
-#r;w,,Unknown67,(VR70 konfig 1),,,,6700,,,tempv,,,unknown value
-#r;w,,Unknown68,(VR70 konfig 1),,,,6800,,,tempv,,,unknown value
+r1;w,,Unknown67,(VR70 konfig 1),,,,6700,,,HEX:4,,,unknown value
+r1;w,,Unknown68,(VR70 konfig 1),,,,6800,,,HEX:4,,,unknown value
 r;w,,OpModeEffect,op mode effect,,,,6900,,,zonesel,,,selection which heating circuit is affected by changing parameters in the basic display
 r;w,,Installer1,installer name 1,,,,6C00,,,shortname,,,installer's name
 r;w,,Installer2,installer name 2,,,,6D00,,,shortname,,,installer's name
@@ -61,7 +61,7 @@ r;w,,OpModeVentilation,operation mode for ventilation,,,,1600,,,opmode,,,operati
 r;w,,HolidayTemp,holiday temperature,,,,8200,,,tempv,,,holiday setpoint
 r;w,,BankHolidayStartPeriod,bank holiday start period,,,,8300,,,hfrom,,,start date of bank holidays
 r;w,,BankHolidayEndPeriod,bank holiday end period,,,,8400,,,hto,,,end date of bank holidays
-#r;w,,Unknown85,(constant 0/inf),,,,8500,,,tempv,,,unknown value
+r1;w,,Unknown85,(constant 0/inf),,,,8500,,,HEX:4,,,unknown value
 r;w,,OutsideTempAvg,average outside temperature,,,,9500,,,tempv,,,gerundete mittlere Außentemperatur (alle 3h aktualisiert)
 r,,MaintenanceDue,maintenance due,,,,9600,,,yesno,,,zeigt an ob die Wartung fällig ist
 r,,HwcStorageTempTop,hwc storage temperature top,,,,9D00,,,tempv,,,"Temp.fühler WW, oben"
